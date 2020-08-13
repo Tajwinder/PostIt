@@ -1,0 +1,40 @@
+.loginForm{
+   
+/* background-color: brown; */
+ 
+padding:50px ;
+margin: 120px auto;
+text-align: left;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#createAccount {
+    color: blue;
+
+}
+
+#email{
+border-radius: 5px;
+}
+#password{
+    border-radius: 5px;
+}
+/* .col-md-4{
+    margin-top: -500px;
+} */
+
+.wrapper{
+   
+    background-image: url(./../../images/bg3.jpg); 
+    padding: 120px auto; 
+     background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+/* .innerWrapper{
+   
+    width:90%;
+    height: 100%;
+    margin: 120px auto; 
+} */

@@ -1,0 +1,16 @@
+.signUpForm{
+   
+    background-color: black;
+    margin: 120px auto;
+    padding:50px ;
+    }
+    .wrapper{
+   
+        background-image: url(./../../images/bg3.jpg); 
+        padding: 120px auto; 
+         background-size: cover; 
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        
+    }
