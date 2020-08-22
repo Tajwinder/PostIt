@@ -9,6 +9,8 @@ import './App.css';
 // import SignUP from './components/signUp/SignUp';
 import Home from './components/home/Home'
 import LandingPage from './components/landingPage/LandingPage';
+import Login from './components/login/Login';
+import SignUp from './components/signUp/SignUp';
 function App() {
   const [email,setEmail]=useState('');
   const [user,setUser] =useState(false)
@@ -17,11 +19,13 @@ function App() {
           if(user){
             console.log("userdetils")
             console.log(user.email)
+            // alert(user.email)
             setEmail(user.email)
               setUser(true)
               
           }
           else{
+            
               setUser(false)
           }
           }

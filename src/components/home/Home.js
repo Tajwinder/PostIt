@@ -26,6 +26,7 @@ setUser(user);
     }, [props.email])
     
     const logOut=()=>{
+      debugger;
         fire.auth().signOut();
     }
     return dashboard?<Dashboard/>:(
